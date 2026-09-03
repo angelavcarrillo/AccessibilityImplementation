@@ -40,7 +40,7 @@ struct VoiceOverPractice: View {
                     
                 }
                 Section{
-                    Button("Faves"){
+                    Button("My Faves"){
                         
                         
                     }

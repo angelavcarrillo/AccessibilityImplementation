@@ -40,10 +40,13 @@ struct VoiceOverPractice: View {
                     
                 }
                 Section{
-                    Button("My Faves"){
+                    NavigationLink(destination: ContentView()) {
+                        Button("GO TO MAP PRACTICE"){
                         
-                        
+                            
+                        }
                     }
+                    
                     Button{
                         
                         

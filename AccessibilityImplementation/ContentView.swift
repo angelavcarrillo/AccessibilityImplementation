@@ -86,7 +86,7 @@ struct ContentView: View {
                 
                 HStack{
                     
-                    TextField("Enter a new task",text: $newTask)
+                    TextField("Enter a new task!",text: $newTask)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .accessibilityValue(newTask)
                     
